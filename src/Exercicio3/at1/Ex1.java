@@ -2,8 +2,7 @@ package Exercicio3.at1;
 
 import java.util.Scanner;
 
-public class Ex1 {
-    public static void main(String[] args) {
+public class Ex1 {    public static void main(String[] args) {
         int vogais=0,digitos=0;
         String digite;
         Scanner ler;
