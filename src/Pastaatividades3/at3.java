@@ -1,7 +1,8 @@
-package Exercicio3.at3;
+package Pastaatividades3;
+
 import java.util.Scanner;
 
-public class ex3 {
+public class at3 {
     public static void main(String[] args) {
         int i = 0;
         String nome;
@@ -17,19 +18,5 @@ public class ex3 {
                 System.out.print(nome.charAt(i + 1));
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
-

@@ -1,4 +1,4 @@
-package Exerciciosemana2;
+package Pastaatividades2;
 
 public class at5 {
     public static void main(String[] args) {

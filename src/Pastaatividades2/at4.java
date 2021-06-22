@@ -1,6 +1,6 @@
-package Exerciciosemana2;
+package Pastaatividades2;
 
-public class at3 {
+public class at4 {
     public static void  main(String[] args){
         int vetor1[] = {3, 14, 21, 54, 65, 34, 21, 23, 5, 1};
         int menorvalor = vetor1[0];

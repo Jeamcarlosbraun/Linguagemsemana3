@@ -1,6 +1,8 @@
-package Exercicio3.at4;
+package Pastaatividades3;
+
 import java.util.Scanner;
-public class t4 {
+
+public class at4 {
     public static void main(String[] args) {
         String nome;
         Scanner ler;

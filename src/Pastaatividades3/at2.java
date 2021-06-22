@@ -1,5 +1,7 @@
-package Exercicio3.at2;
+package Pastaatividades3;
+
 import java.util.Scanner;
+
 public class at2 {
     public static void main(String[] args) {
         int c, v;

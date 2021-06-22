@@ -1,4 +1,4 @@
-package Exerciciosemana2;
+package Pastaatividades2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Exercicio3.at5;
+package Pastaatividades3;
 
 import java.util.Scanner;
 
