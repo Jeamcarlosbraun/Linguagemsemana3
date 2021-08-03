@@ -10,11 +10,13 @@ public class Pais {
     private Double dimensao;
     public ArrayList<Pais> paisFronteira = new ArrayList<Pais>();
 
-    public Pais(String codigoIso, String nome, Double dimensao) {
+    public Pais(String codigoIso, String nome, Double dimensao, Integer pop) {
         this.codigoIso = codigoIso;
         this.nome = nome;
         this.dimensao = dimensao;
+        this.pop = pop;
     }
+
 
     public String getCodigoIso() {
         return codigoIso;

@@ -1,16 +1,13 @@
 package Pastaatividades9.at2;
-import Pastaatividades9.at1.Pais;
-
-import java.util.ArrayList;
 
 public class Execucao3 {
     public static void main(String[] args) {
-        Pastaatividades9.at1.Pais p1 = new Pastaatividades9.at1.Pais("BRA", "BRASIL", 2003, 100);
-        Pastaatividades9.at1.Pais p2 = new Pastaatividades9.at1.Pais("ARG", "ARGENTINA", 2000, 100);
-        Pastaatividades9.at1.Pais p3 = new Pastaatividades9.at1.Pais("URU", "URUGUAI", 2040, 100);
-        Pastaatividades9.at1.Pais p4 = new Pastaatividades9.at1.Pais("EQU", "EQUADOR", 2000, 130);
-        Pastaatividades9.at1.Pais p5 = new Pastaatividades9.at1.Pais("BOL", "BOLÍVIA", 2005, 130);
-
+        Pais p1 = new Pastaatividades9.at1.Pais("BRA", "BRASIL", 2003.1, 102);
+        Pais p2 = new Pastaatividades9.at1.Pais("ARG", "ARGENTINA", 2000.3, 103);
+        Pais p3 = new Pastaatividades9.at1.Pais("URU", "URUGUAI", 2040.4, 104);
+        Pais p4 = new Pastaatividades9.at1.Pais("EQU", "EQUADOR", 2000.6, 130);
+        Pais p5 = new Pastaatividades9.at1.Pais("BOL", "BOLÍVIA", 2005.7, 130);
+/*
         p1.paisFronteira.add(p2);
         p1.paisFronteira.add(p3);
         p1.paisFronteira.add(p5);
@@ -36,7 +33,7 @@ public class Execucao3 {
             System.out.println(p.getNome());
         }
 
-
+*/
     Continente america = new Continente("America");
     america.adiciona(p1);
     america.adiciona(p2);

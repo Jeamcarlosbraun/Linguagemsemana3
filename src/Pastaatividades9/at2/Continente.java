@@ -1,7 +1,4 @@
 package Pastaatividades9.at2;
-
-import Pastaatividades9.at1.Pais;
-
 import java.util.ArrayList;
 public class Continente {
     public String nome;
