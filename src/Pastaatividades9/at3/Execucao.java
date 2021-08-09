@@ -9,6 +9,6 @@ public class Execucao {
         Pessoa p5 = new Pessoa("Jeam",p3, p4);
         Pessoa p6 = new Pessoa("Junior",p3, p4);
         Pessoa p7 = new Pessoa("Jessica",p3, p4);
-    System.out.println("Jea, é irmão de Jessica"+ p5.eirmao(p7));
+    System.out.println("Jeam, é irmão de Jessica "+ p5.eirmao(p7));
     }
 }

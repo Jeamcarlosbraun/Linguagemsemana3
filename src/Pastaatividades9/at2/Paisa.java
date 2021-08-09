@@ -1,21 +1,20 @@
-package Pastaatividades9.at1;
-
+package Pastaatividades9.at2;
 
 import java.util.ArrayList;
 
-public class Pais {
+public class Paisa {
     private String codigoIso;
     private String nome;
     private Integer pop;
     private Double dimensao;
-    public ArrayList<Pais> paisFronteira = new ArrayList<Pais>();
+    public ArrayList<Pastaatividades9.at1.Pais> paisFronteira = new ArrayList<Pastaatividades9.at1.Pais>();
 
-    public Pais(String codigoIso, String nome, Double dimensao) {
+    public Paisa(String codigoIso, String nome, Double dimensao, Integer pop) {
         this.codigoIso = codigoIso;
         this.nome = nome;
         this.dimensao = dimensao;
+        this.pop = pop;
     }
-
 
     public String getCodigoIso() {
         return codigoIso;
@@ -49,7 +48,7 @@ public class Pais {
         this.dimensao = dimensao;
     }
 
-    public boolean ehOMesmoPais(Pais outroPais) {
+    public boolean ehOMesmoPais(Paisa outroPais) {
         if (this.codigoIso.equals(outroPais.getCodigoIso())) {
             return true;
         } else {
@@ -57,21 +56,12 @@ public class Pais {
         }
     }
 
-    public boolean ehLimitrofe(Pais outroPais) {
+    public boolean ehLimitrofe(Paisa outroPais) {
         if (this.paisFronteira.contains(outroPais)) {
             return true;
         } else {
             return false;
         }
     }
-
-    public ArrayList<Pais> vizinhosComuns(Pais outroPais) {
-        ArrayList<Pais> comuns = new ArrayList<Pais>();
-        for (Pais p : this.paisFronteira) {
-            if (outroPais.ehLimitrofe(p)) {
-                comuns.add(p);
-            }
-        }
-        return comuns;
-    }
 }
+

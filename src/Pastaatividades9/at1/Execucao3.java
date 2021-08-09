@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Execucao3 {
     public static void main(String[] args) {
-        Pais p1 = new Pais("BRA", "BRASIL", 232323.23);
-        Pais p2 = new Pais("ARG", "ARGENTINA", 2323.23);
-        Pais p3 = new Pais("URU", "URUGUAI", 2323.23);
-        Pais p4 = new Pais("EQU", "EQUADOR", 2323.23);
-        Pais p5 = new Pais("BOL", "BOLÍVIA", 2323.23);
+        Pais p1 = new Pais("BRA", "BRASIL", 23232.11);
+        Pais p2 = new Pais("ARG", "ARGENTINA", 2323.3);
+        Pais p3 = new Pais("URU", "URUGUAI", 232.55);
+        Pais p4 = new Pais("EQU", "EQUADOR", 235.7);
+        Pais p5 = new Pais("BOL", "BOLÍVIA", 232.76);
 
         p1.paisFronteira.add(p2);
         p1.paisFronteira.add(p3);
